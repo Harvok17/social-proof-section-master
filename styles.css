@@ -249,6 +249,14 @@ body {
   }
 }
 
+@media screen and (max-width: 950px) {
+  .first-review,
+  .second-review,
+  .third-review {
+    min-width: 60%;
+  }
+}
+
 @media screen and (max-width: 575px) {
   .container {
     margin: auto;
